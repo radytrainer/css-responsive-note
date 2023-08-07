@@ -9,40 +9,40 @@
 
 
 
-```css:
+```css
 @media (min-width: screen_size) {
     /* your css selector */
 }
 ```
 #### Orientation screen on devices
-```css:
+```css
 @media (orientation: landscape) {
     /* your css selector */
 }
 ```
-```css:
+```css
 @media (orientation: portrait) {
     /* your css selector */
 }
 ```
 #### Min-width and Max-width
 
-```css:
+```css
 @media (max-width: screen_size) {
     /* your css selector */
 }
 ```
-```css:
+```css
 @media (width <= screen_size){
     /* your css selector */
 }
 ```
-```css:
+```css
 @media (min-width:screen_size) and (max-width:screen_size) {
     /* your css selector */
 }
 ```
-```css:
+```css
 @media (min-size <= width <= max-size) {
     /* your css selector */
 }
